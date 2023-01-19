@@ -20,17 +20,42 @@ function App() {
           <img src={head} alt={'head not find'} className={'headImg'}/>
         </div>
         <div className="wrapBody">
+
           <div className={"wrapBodyLeftArm"}>
             <img src={leftArm} alt={'leftArm not find'} className={'leftArm'}/>
+              <div className={'wrapBodyLeftArmHand'}>
+                  <img src={leftHand} alt={'leftHand not find'} className={'leftHand'}/>
+              </div>
           </div>
 
           <img src={body} alt={'body not find'} className={'bodyImg'}/>
 
           <div className={"wrapBodyRightArm"}>
             <img src={rightArm} alt={'rightArm not find'} className={'rightArm'}/>
+              <div className={'wrapBodyRightArmHand'}>
+                  <img src={rightHand} alt={'rightHand not find'} className={'rightHand'}/>
+              </div>
           </div>
+
         <div className={"wrapLegs"}>
-            <img src={rightArm} alt={'rightArm not find'} className={'rightArm'}/>
+            <div className={'wrapLegsLeft'}>
+                <img src={leftLeg} alt={'leftLeg not find'} className={'leftLeg'}/>
+                <div className={'wrapLegsLeftFoot'}>
+                    <img src={leftFoot} alt={'leftFoot not find'} className={'leftFoot'}/>
+                    <div className={'wrapLegsLeftFootShoes'}>
+                        <img src={leftShoes} alt={'leftShoes not find'} className={'leftShoes'}/>
+                    </div>
+                </div>
+            </div>
+            <div className={'wrapLegsRight'}>
+                <img src={rightLeg} alt={'rightLeg not find'} className={'rightLeg'}/>
+                <div className={'wrapLegsRightFoot'}>
+                    <img src={rightFoot} alt={'rightFoot not find'} className={'rightFoot'}/>
+                    <div className={'wrapLegsRightFootShoes'}>
+                        <img src={rightShoes} alt={'rightShoes not find'} className={'rightShoes'}/>
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
       </div>
